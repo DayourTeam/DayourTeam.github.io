@@ -11215,15 +11215,11 @@ p {
   padding-left: 0;
   padding-right: 0;
   margin: 10px -5px;
+  overflow: hidden;
   border-radius: 2px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
-.portfolio-video {
-  height: 1px;
-  width: 1000px;
-}
-
 .portfolio .portfolio-container .portfolio-item .content-holder {
   position: absolute;
   top: 50%;
