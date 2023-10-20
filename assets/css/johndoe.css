@@ -11211,9 +11211,17 @@ p {
 }
 
 .portfolio .portfolio-container .portfolio-item {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 10px -5px;
   border-radius: 2px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+}
+.portfolio-video {
+  height: 1px;
+  width: 1000px;
 }
 
 .portfolio .portfolio-container .portfolio-item .content-holder {
