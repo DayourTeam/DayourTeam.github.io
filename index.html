@@ -10,6 +10,8 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
+    
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
 	<link rel="stylesheet" href="assets/css/johndoe.css">
     <link rel='shortcut icon' type='image/png' href="assets/imgs/foto.jpg" />
 </head>
@@ -36,7 +38,7 @@
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link ">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
@@ -261,172 +263,188 @@
     </section>
 
     <section class="section bg-custom-gray" id="portfolio">
-        <div class="container">
-            <h1 class="mb-5"><span class="text-danger">Picture</span></h1>
-            <div class="portfolio">
-                <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
-                        New
-                    </a>
-                    <a href="#" data-filter=".advertising">
-                        Design
-                    </a>
-                    <a href="#" data-filter=".branding">
-                        Website
-                    </a>
-                    <a href="#" data-filter=".web">
-                        Me
-                    </a>
-                </div>
-                <div class="portfolio-container" style="position: relative; height: 1256.57px;"> 
-                    <div class="col-md-6 col-lg-4 web new" style="position: absolute; left: 0px; top: 0px;">
-                        <div class="portfolio-item">
-                            <img src="foto" class="img-fluid" alt="">
-                            <div class="content-holder">
-                                <a class="Image" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>   
-                        </div>             
+        
+        <h1 class="pb-5 px-5"><span class="text-danger">Picture</span></h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div id="picture" class="container col-span-2 w-full px-0">
+                <div class="portfolio">
+                    <div class="filters">
+                        <a href="#" data-filter=".new" class="active">
+                            New
+                        </a>
+                        <a href="#" data-filter=".advertising">
+                            Design
+                        </a>
+                        <a href="#" data-filter=".branding">
+                            Website
+                        </a>
+                        <a href="#" data-filter=".web">
+                            Me
+                        </a>
                     </div>
-                    <div class="col-md-6 col-lg-4 web new" style="position: absolute; left: 345px; top: 0px;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle">.</p>
+                    <div class="portfolio-container" style="position: relative; height: 1256.57px;"> 
+                        
+                        <div class="col-md-6 col-lg-4 web new" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="foto" class="img-fluid" alt="">
+                                <div class="content-holder">
+                                    <a class="Image" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
+                                </div>   
+                            </div>             
+                        </div>
+                        <div class="col-md-6 col-lg-4 web new" style="position: absolute; left: 345px; top: 0px;">
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle">.</p>
+                                    </div>
+                                </div> 
+                            </div>                         
+                        </div>
+                        <div class="col-md-6 col-lg-4 advertising new" style="position: absolute; left: 345px; top: 276.523px;">
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">                         
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle">.</p>
+                                    </div>
+                                </div>    
+                            </div>              
+                        </div> 
+    
+                        <div class="col-md-6 col-lg-4 advertising" style="position: absolute; display: none;"> 
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">                               
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
                                 </div>
-                            </div> 
-                        </div>                         
-                    </div>
-                    <div class="col-md-6 col-lg-4 advertising new" style="position: absolute; left: 345px; top: 276.523px;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">                         
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle">.</p>
+                            </div>                                                       
+                        </div> 
+                        <div class="col-md-6 col-lg-4 web new" style="position: absolute; left: 0px; top: 507.932px;">
+                            <div class="portfolio-item">
+                    
+                                <img src="" class="img-fluid" alt="">  
+                               <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
                                 </div>
-                            </div>    
-                        </div>              
-                    </div> 
-
-                    <div class="col-md-6 col-lg-4 advertising" style="position: absolute; display: none;"> 
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">                               
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
+                            </div>                                                     
+                        </div>
+                        <div class="col-md-6 col-lg-4 advertising new" style="position: absolute; left: 345px; top: 526.182px;">
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="D">       
+                               <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
+                                </div>
+                            </div>                                                       
+                        </div> 
+                        <div class="col-md-6 col-lg-4 advertising new" style="position: absolute; left: 0px; top: 756.387px;"> 
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">            
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 web new" style="position: absolute; left: 0px; top: 507.932px;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">  
-                           <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div>
-                    <div class="col-md-6 col-lg-4 advertising new" style="position: absolute; left: 345px; top: 526.182px;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="D">       
-                           <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 advertising new" style="position: absolute; left: 0px; top: 756.387px;"> 
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">            
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
+                                    
+                        </div> 
+    
+                        
+                        <div class="col-md-6 col-lg-4 branding new" style="position: absolute; left: 345px; top: 775.841px;">
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">                        
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
+                                </div> 
                             </div>
                         </div>
-                                
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding new" style="position: absolute; left: 345px; top: 775.841px;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">                        
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
+                     
+                  
+                        <div class="col-md-6 col-lg-4 branding" style="position: absolute; display: none;">
+                            <div class="portfolio-item">
+                                <img src="assets/imgs/foto.jpg" class="img-fluid" alt="">foto  
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/foto.jpg">foto</a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
                                 </div>
-                            </div> 
+                            </div>                                                     
+                        </div> 
+                        <div class="col-md-6 col-lg-4 branding new" style="position: absolute; left: 0px; top: 1019.91px;">
+                            <div class="portfolio-item">
+                                <div class="content-holder">
+                                    <a class="img-popup" href="assets/imgs/foto.jpg">foto</a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
+                                </div>
+                            </div>                                                    
+                        </div> 
+                        <div class="col-md-6 col-lg-4 branding" style="position: absolute; display: none;">
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">                      
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
+                                </div>
+                            </div>                                                      
+                        </div> 
+                        <div class="col-md-6 col-lg-4 branding" style="position: absolute; display: none;">
+                            <div class="portfolio-item">
+                                <img src="" class="img-fluid" alt="">          
+                                <div class="content-holder">
+                                    <a class="img-popup" href=""></a>
+                                    <div class="text-holder">
+                                        <h6 class="title"></h6>
+                                        <p class="subtitle"></p>
+                                    </div>
+                                </div>
+                            </div>                                                   
                         </div>
                     </div> 
-                    <div class="col-md-6 col-lg-4 branding" style="position: absolute; display: none;">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/foto.jpg" class="img-fluid" alt="">foto  
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/foto.jpg">foto</a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding new" style="position: absolute; left: 0px; top: 1019.91px;">
-                        <div class="portfolio-item">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/foto.jpg">foto</a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>
-                        </div>                                                    
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding" style="position: absolute; display: none;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">                      
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>
-                        </div>                                                      
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding" style="position: absolute; display: none;">
-                        <div class="portfolio-item">
-                            <img src="" class="img-fluid" alt="">          
-                            <div class="content-holder">
-                                <a class="img-popup" href=""></a>
-                                <div class="text-holder">
-                                    <h6 class="title"></h6>
-                                    <p class="subtitle"></p>
-                                </div>
-                            </div>
-                        </div>                                                   
-                    </div>
-                </div> 
-            </div>  
-        </div>            
+                </div>  
+            </div>           
+            
+            <div class="col-auto">
+                <video class=" w-64 rounded-lg" controls="controls">
+                    <source src="/assets/imgs/Dayour.mp4" type="video/mp4" />
+                   </video>
+             </div>
+        </div>
+  
     </section>
 
 
